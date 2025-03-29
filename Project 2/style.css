@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    justify-self: center;
+    align-content: center;
+}
+
+.container {
+    background-color: #ccc;
+    max-height: 100vh;
+    max-width: 100vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.form-container {
+    background: linear-gradient(to right, rgba(11, 36, 151, 0.863), rgba(60, 10, 126, 0.836),rgba(162, 7, 201, 0.685));
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.form-container:hover {
+    background: linear-gradient(80deg, rgba(168, 14, 86, 0.658), rgba(117, 7, 139, 0.747), rgba(7, 96, 168, 0.712));
+}
+
+input, textarea {
+    /* border: 2px solid #ccc; */
+    /* border-radius: 5px;/ */
+    box-shadow: 1px 1px 25px rgba(143, 143, 143, 0.466);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for labels */
+    gap: 10px 20px;
+     /* Row gap 10px, Column gap 20px */
+    margin: 0px 10px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+     /* Label upar, input niche */
+    flex-wrap: wrap;
+}
+
+label {
+    text-align: start; /* Labels center me rahenge */
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(116, 115, 115, 0.767);
+    padding: 10px;
+    color: #fff;
+    justify-self: flex-end;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0.1ms;
+}
+
+button:hover {
+    color: black;
+    background-color: #ccc;
+    border-radius: 2px solid red;
+
+}
+
+.btn {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .form-sec {
+        grid-template-columns: 1fr; /* Mobile view: Single column */
+    }
+}
