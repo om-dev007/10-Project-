@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 300px;
+    height: 320px;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img-cont {
+    width: 300px;
+    height: 320px;
+}
+
+.ng-container {
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.top-section-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    height: 65px;
+}
+
+.content{
+    margin: 0px 10em;
+    max-width: 900px;
+}
+
+.top-100 {
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h4 {
+    align-self: flex-end;
+    place-self: end;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.name-apj {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.bg-gradient {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+}
+
+
+.bio {
+    justify-self: flex-start;
+}
+
+ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.biography-sec {
+    margin: 50px 0px;
+}
+
+section div h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 30px;
+    padding: 0px 30px;  
+}
+
+footer {
+    margin: 50px 0px;
+}
+
+footer div p {
+    justify-self: flex-end;
+    font-size: 15px;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    
+}
+
+
