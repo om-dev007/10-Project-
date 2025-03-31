@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    min-height: 100%;
+    font-size: 15px;
+    line-height: 1.8;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.sec-one {
+    background-image: url(./Images/developer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    justify-items: center;
+    /* align-content: center;  */
+}
+
+.sec-one div span, h1 {
+    color: #fff;
+    /* font-size: 50px; */
+    font-weight: 100;
+    /* text-transform: uppercase; */
+}
+
+.sec-one div .full-stack {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.intro {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.hi {
+    text-transform: capitalize;
+    font-size: 5em;
+    display: inline;
+}
+
+.sec-two {
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    background-color: #000;
+}
+
+.sec-two h1 {
+    display: inline;
+    font-size: 4em;
+    text-align: center;
+}
+
+.sec-two span {
+    font-size: 6em;
+    text-align: center;
+}
+
+.sec-three  {
+    display: flex;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 40px 150px;
+    /* text-wrap: wrap; */
+}
+
+.black-border {
+    box-shadow: 20px 20px 20px rgba(165, 164, 164, 0.712);
+    margin: 0px 20px;
+    padding: 0px 0px;
+    width: 25vw;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1ms;
+}
+
+.black-border:hover {
+    transform: scale(1.05);
+}
+
+.web-img {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content {
+    padding: 20px 20px;
+}
+
+.sec-three p {
+    color: #3b3b3b;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+.sec-four {
+    display: flex;
+    width: 100%;
+}
+
+.sec-four-green {
+    background-color: #515603;
+    color: #fff;
+    padding: 32px;
+    width: 50%;
+}
+
+.sec-four-brown {
+    background-color: #722300;
+    color: #fff;
+    padding: 32px;
+    width: 50%;
+}
+
+.sec-four h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+}
+
+.sec-five {
+    background-color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+
+.sec-five  {
+    padding: 20px;
+}
